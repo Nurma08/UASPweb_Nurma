@@ -1,0 +1,141 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffffff;
+    color: #333;
+}
+
+.header {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    position: relative;
+}
+
+.header .logo {
+    max-width: 150px;
+}
+
+.header nav {
+    margin-top: 40px;
+}
+
+.header nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.header nav a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.login-box {
+    background-color: #ce91c7;
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    box-shadow: 0 0 10px #650f5b;
+}
+
+.login-box h2 {
+    margin-bottom: 20px;
+}
+
+.textbox {
+    margin-bottom: 10px;
+}
+
+.textbox label {
+    display: inline-block;
+    width: 80px;
+}
+
+.textbox input {
+    padding: 8px;
+    width: calc(100% - 90px);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.buttons {
+    margin-top: 10px;
+}
+
+.buttons button {
+    padding: 10px 15px;
+    background-color: #8251ad;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    background-color: #4e0d3f;
+}
+
+.home-links {
+    margin-top: 20px;
+}
+
+.home-links .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #4f254a;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.home-links .btn:hover {
+    background-color: #5c27a1;
+}
+
+/* Additional styles */
+.welcome-container {
+    background-color: #ffc0cb; /* Warna latar belakang pink */
+    border: 2px solid #9370DB; 
+    padding: 10px;
+    margin-bottom: 20px;
+    max-width: 300px; 
+    margin: auto; /* Center align the container */
+    border-radius: 8px; /* Sudut border rounded */
+}
+
+.posters {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.poster {
+    width: 250px;
+    height: 350px;
+    margin: 10px;
+    object-fit: cover;
+}
+
+/* Additional styles requested */
+.welcome-container h2 {
+    color: #fff; /* Warna teks putih */
+    font-weight: bold; /* Teks tebal */
+}
